@@ -1,0 +1,14 @@
+# Optional OpenTripPlanner stack for AWS / local Docker.
+# Not required for Handshake offline mode (leave OTP_URL unset).
+services:
+  otp:
+    image: opentripplanner/opentripplanner:2.5.0
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/var/opentripplanner
+    # First run: build graph. Later runs: load + serve.
+    # Override command as needed after data is present.
+    command: ["--load", "--serve"]
+    environment:
+      JAVA_TOOL_OPTIONS: "-Xmx4g"

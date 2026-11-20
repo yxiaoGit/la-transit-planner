@@ -1,0 +1,275 @@
+{
+  "stops": {
+    "union-station": {
+      "name": "Union Station",
+      "lat": 34.0556,
+      "lon": -118.2336
+    },
+    "pershing-square": {
+      "name": "Pershing Square",
+      "lat": 34.0481,
+      "lon": -118.2532
+    },
+    "koreatown": {
+      "name": "Wilshire/Western",
+      "lat": 34.0618,
+      "lon": -118.3089
+    },
+    "ucla": {
+      "name": "UCLA",
+      "lat": 34.0689,
+      "lon": -118.4452
+    },
+    "santa-monica-pier": {
+      "name": "Santa Monica Pier",
+      "lat": 34.0095,
+      "lon": -118.4973
+    },
+    "culver-city": {
+      "name": "Culver City Station",
+      "lat": 34.0276,
+      "lon": -118.3881
+    },
+    "usc": {
+      "name": "USC",
+      "lat": 34.0224,
+      "lon": -118.2851
+    },
+    "lax": {
+      "name": "LAX City Bus Center",
+      "lat": 33.9425,
+      "lon": -118.4081
+    },
+    "inglewood": {
+      "name": "Inglewood Downtown",
+      "lat": 33.9617,
+      "lon": -118.3531
+    },
+    "hollywood": {
+      "name": "Hollywood/Vine",
+      "lat": 34.1016,
+      "lon": -118.3267
+    },
+    "glendale": {
+      "name": "Glendale Galleria",
+      "lat": 34.146,
+      "lon": -118.2551
+    },
+    "burbank": {
+      "name": "Burbank Downtown",
+      "lat": 34.1808,
+      "lon": -118.3089
+    },
+    "pasadena-city-hall": {
+      "name": "Pasadena City Hall",
+      "lat": 34.1478,
+      "lon": -118.1445
+    },
+    "long-beach": {
+      "name": "Long Beach Transit Mall",
+      "lat": 33.7683,
+      "lon": -118.1926
+    },
+    "warner-center": {
+      "name": "Warner Center",
+      "lat": 34.1801,
+      "lon": -118.603
+    }
+  },
+  "routes": [
+    {
+      "id": "metro-720",
+      "name": "Metro Bus 720",
+      "color": "#e23d28",
+      "headsign": "Santa Monica via Wilshire",
+      "stopIds": [
+        "union-station",
+        "pershing-square",
+        "koreatown",
+        "ucla",
+        "santa-monica-pier"
+      ],
+      "legMinutes": [
+        8,
+        12,
+        18,
+        22
+      ],
+      "frequencyMinutes": 12,
+      "firstTrip": "05:00",
+      "lastTrip": "23:30"
+    },
+    {
+      "id": "metro-4",
+      "name": "Metro Bus 4",
+      "color": "#2aa9a1",
+      "headsign": "Santa Monica via Santa Monica Blvd",
+      "stopIds": [
+        "union-station",
+        "hollywood",
+        "ucla",
+        "santa-monica-pier"
+      ],
+      "legMinutes": [
+        22,
+        16,
+        20
+      ],
+      "frequencyMinutes": 15,
+      "firstTrip": "05:15",
+      "lastTrip": "23:00"
+    },
+    {
+      "id": "metro-33",
+      "name": "Metro Bus 33",
+      "color": "#f5a524",
+      "headsign": "Santa Monica via Venice",
+      "stopIds": [
+        "union-station",
+        "usc",
+        "culver-city",
+        "santa-monica-pier"
+      ],
+      "legMinutes": [
+        14,
+        18,
+        16
+      ],
+      "frequencyMinutes": 15,
+      "firstTrip": "05:30",
+      "lastTrip": "22:45"
+    },
+    {
+      "id": "metro-232",
+      "name": "Metro Bus 232",
+      "color": "#4b7bec",
+      "headsign": "LAX / Long Beach",
+      "stopIds": [
+        "lax",
+        "inglewood",
+        "usc",
+        "long-beach"
+      ],
+      "legMinutes": [
+        18,
+        22,
+        35
+      ],
+      "frequencyMinutes": 20,
+      "firstTrip": "05:00",
+      "lastTrip": "22:00"
+    },
+    {
+      "id": "metro-117",
+      "name": "Metro Bus 117",
+      "color": "#a55eea",
+      "headsign": "LAX via Century",
+      "stopIds": [
+        "lax",
+        "inglewood",
+        "usc",
+        "union-station"
+      ],
+      "legMinutes": [
+        16,
+        20,
+        18
+      ],
+      "frequencyMinutes": 18,
+      "firstTrip": "04:45",
+      "lastTrip": "23:15"
+    },
+    {
+      "id": "metro-94",
+      "name": "Metro Bus 94",
+      "color": "#26de81",
+      "headsign": "Sun Valley via San Fernando",
+      "stopIds": [
+        "union-station",
+        "glendale",
+        "burbank",
+        "warner-center"
+      ],
+      "legMinutes": [
+        20,
+        14,
+        28
+      ],
+      "frequencyMinutes": 20,
+      "firstTrip": "05:20",
+      "lastTrip": "22:30"
+    },
+    {
+      "id": "metro-180",
+      "name": "Metro Bus 180",
+      "color": "#fd9644",
+      "headsign": "Pasadena via Hollywood",
+      "stopIds": [
+        "hollywood",
+        "glendale",
+        "pasadena-city-hall"
+      ],
+      "legMinutes": [
+        18,
+        22
+      ],
+      "frequencyMinutes": 15,
+      "firstTrip": "05:40",
+      "lastTrip": "22:50"
+    },
+    {
+      "id": "metro-2",
+      "name": "Metro Bus 2",
+      "color": "#778ca3",
+      "headsign": "Downtown LA via Sunset",
+      "stopIds": [
+        "santa-monica-pier",
+        "ucla",
+        "hollywood",
+        "union-station"
+      ],
+      "legMinutes": [
+        20,
+        16,
+        24
+      ],
+      "frequencyMinutes": 12,
+      "firstTrip": "05:10",
+      "lastTrip": "23:40"
+    },
+    {
+      "id": "big-blue-1",
+      "name": "Big Blue Bus 1",
+      "color": "#0fb9b1",
+      "headsign": "UCLA via Santa Monica",
+      "stopIds": [
+        "santa-monica-pier",
+        "ucla"
+      ],
+      "legMinutes": [
+        25
+      ],
+      "frequencyMinutes": 15,
+      "firstTrip": "06:00",
+      "lastTrip": "22:00"
+    },
+    {
+      "id": "metro-212",
+      "name": "Metro Bus 212",
+      "color": "#eb3b5a",
+      "headsign": "Hollywood via La Brea",
+      "stopIds": [
+        "inglewood",
+        "koreatown",
+        "hollywood"
+      ],
+      "legMinutes": [
+        22,
+        14
+      ],
+      "frequencyMinutes": 16,
+      "firstTrip": "05:25",
+      "lastTrip": "22:40"
+    }
+  ]
+}

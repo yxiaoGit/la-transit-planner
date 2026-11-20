@@ -1,0 +1,9 @@
+{
+  "transitFeeds": [
+    {
+      "type": "gtfs",
+      "source": "gtfs_bus.zip",
+      "feedId": "LA-Metro-Bus"
+    }
+  ]
+}

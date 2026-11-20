@@ -1,0 +1,174 @@
+[
+  {
+    "id": "union-station",
+    "name": "Union Station",
+    "aliases": [
+      "la union station",
+      "metro union station"
+    ],
+    "lat": 34.0556,
+    "lon": -118.2336,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "ucla",
+    "name": "UCLA",
+    "aliases": [
+      "ucla campus",
+      "westwood ucla"
+    ],
+    "lat": 34.0689,
+    "lon": -118.4452,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "lax",
+    "name": "LAX Airport",
+    "aliases": [
+      "lax",
+      "los angeles international"
+    ],
+    "lat": 33.9425,
+    "lon": -118.4081,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "santa-monica-pier",
+    "name": "Santa Monica Pier",
+    "aliases": [
+      "santa monica",
+      "the pier"
+    ],
+    "lat": 34.0095,
+    "lon": -118.4973,
+    "city": "Santa Monica"
+  },
+  {
+    "id": "pershing-square",
+    "name": "Pershing Square",
+    "aliases": [
+      "downtown la",
+      "pershing"
+    ],
+    "lat": 34.0481,
+    "lon": -118.2532,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "usc",
+    "name": "USC",
+    "aliases": [
+      "university of southern california",
+      "expo park"
+    ],
+    "lat": 34.0224,
+    "lon": -118.2851,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "pasadena-city-hall",
+    "name": "Pasadena City Hall",
+    "aliases": [
+      "pasadena"
+    ],
+    "lat": 34.1478,
+    "lon": -118.1445,
+    "city": "Pasadena"
+  },
+  {
+    "id": "long-beach",
+    "name": "Long Beach Transit Mall",
+    "aliases": [
+      "long beach",
+      "downtown long beach"
+    ],
+    "lat": 33.7683,
+    "lon": -118.1926,
+    "city": "Long Beach"
+  },
+  {
+    "id": "koreatown",
+    "name": "Koreatown Wilshire/Western",
+    "aliases": [
+      "koreatown",
+      "wilshire western"
+    ],
+    "lat": 34.0618,
+    "lon": -118.3089,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "hollywood",
+    "name": "Hollywood/Vine",
+    "aliases": [
+      "hollywood",
+      "hollywood vine"
+    ],
+    "lat": 34.1016,
+    "lon": -118.3267,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "culver-city",
+    "name": "Culver City Station",
+    "aliases": [
+      "culver city"
+    ],
+    "lat": 34.0276,
+    "lon": -118.3881,
+    "city": "Culver City"
+  },
+  {
+    "id": "glendale",
+    "name": "Glendale Galleria",
+    "aliases": [
+      "glendale"
+    ],
+    "lat": 34.146,
+    "lon": -118.2551,
+    "city": "Glendale"
+  },
+  {
+    "id": "burbank",
+    "name": "Burbank Downtown",
+    "aliases": [
+      "burbank"
+    ],
+    "lat": 34.1808,
+    "lon": -118.3089,
+    "city": "Burbank"
+  },
+  {
+    "id": "inglewood",
+    "name": "Inglewood Downtown",
+    "aliases": [
+      "inglewood",
+      "sofi"
+    ],
+    "lat": 33.9617,
+    "lon": -118.3531,
+    "city": "Inglewood"
+  },
+  {
+    "id": "warner-center",
+    "name": "Warner Center",
+    "aliases": [
+      "woodland hills",
+      "warner center"
+    ],
+    "lat": 34.1801,
+    "lon": -118.603,
+    "city": "Los Angeles"
+  },
+  {
+    "id": "san-diego",
+    "name": "San Diego Downtown",
+    "aliases": [
+      "san diego",
+      "downtown san diego"
+    ],
+    "lat": 32.7157,
+    "lon": -117.1611,
+    "city": "San Diego"
+  }
+]

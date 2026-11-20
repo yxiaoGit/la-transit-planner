@@ -1,0 +1,35 @@
+{
+  "name": "la-transit-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LA County bus trip planner — offline fixture mode for sandboxes, OTP mode for AWS",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "otp:download": "bash otp/scripts/download-data.sh",
+    "otp:up": "docker compose -f otp/docker-compose.yml up",
+    "otp:down": "docker compose -f otp/docker-compose.yml down"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4",
+    "next": "14.2.18",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-leaflet": "4.2.1"
+  },
+  "devDependencies": {
+    "@types/leaflet": "1.9.14",
+    "@types/node": "20.17.6",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.15",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
