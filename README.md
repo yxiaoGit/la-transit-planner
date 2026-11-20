@@ -18,11 +18,10 @@ Next.js App Router
   - /api/* route handlers (backend)
         |
         +-- offline planner (default)  --> local JSON fixtures
-        |
-        +-- optional OTP client        --> OpenTripPlanner (Docker / AWS)
+
 ```
 
-**Default path (desktop / Handshake):** everything runs inside one Next.js process. Place search, LA County checks, and trip planning use **checked-in data** under `src/data/`. No external transit API is required at runtime.
+**Default path (desktop):** everything runs inside one Next.js process. Place search, LA County checks, and trip planning use **checked-in data** under `src/data/`. No external transit API is required at runtime.
 
 **Optional path (later phone + AWS):** set `OTP_URL` so the same `/api/plan` endpoint can call an OpenTripPlanner service. Docker/OTP scaffolding lives in `otp/` and is **not** required to run the desktop app.
 
