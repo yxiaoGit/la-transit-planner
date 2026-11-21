@@ -2,7 +2,7 @@
   "name": "la-transit-planner",
   "version": "1.0.0",
   "private": true,
-  "description": "LA County bus trip planner — offline fixture mode for sandboxes, OTP mode for AWS",
+  "description": "LA County bus trip planner \u2014 offline fixture mode for sandboxes, OTP mode for AWS",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -31,5 +31,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "overrides": {
+    "resolve": "1.22.13",
+    "is-core-module": "2.17.0"
   }
 }
